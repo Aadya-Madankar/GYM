@@ -8,12 +8,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Flexon Fitness & GYM 2.0 Bhandara</title>
+    <title>Flex-on GYM</title>
   </head>
   <body>
     <nav>
       <div class="nav__logo">
-        <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        <a href="#"><img src="assets/logo.jpg" alt="logo" /></a>
       </div>
       <ul class="nav__links">
         <li class="link"><a href="#">Home</a></li>
@@ -42,6 +42,110 @@
         <img src="assets/header.png" alt="header" />
       </div>
     </header>
+    <!-- Video Section -->
+<section class="section__container video__container">
+    <div class="section__header">Transform Your Fitness Journey</div>
+    <p class="section__subheader">
+        Watch how our expert training and state-of-the-art facilities help you achieve your fitness goals.
+    </p>
+    
+    <div class="video__wrapper">
+        <div class="video__card">
+            <div class="video__player">
+                <video controls poster="assets\logo.png">
+                    <source src="assets\fitness-intro-video.mp4" type="video/mp4">
+                    <source src="fitness-intro-video.webm" type="video/webm">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="video__content">
+                <h3>Experience Our Training Environment</h3>
+                <p>Get an inside look at our modern gym facilities, expert trainers in action, and real member success stories that showcase the results you can achieve.</p>
+                <div class="video__stats">
+                    <div class="stat__item">
+                        <span class="stat__number">5M+</span>
+                        <span class="stat__label">Views</span>
+                    </div>
+                    <div class="stat__item">
+                        <span class="stat__number">98%</span>
+                        <span class="stat__label">Success Rate</span>
+                    </div>
+                    <div class="stat__item">
+                        <span class="stat__number">500+</span>
+                        <span class="stat__label">Transformations</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Customer Showcase Section -->
+<section class="section__container showcase__container">
+    <div class="section__header">Join Our Growing Community</div>
+    <p class="section__subheader">
+        Over 1000+ satisfied customers have transformed their lives with us. See their inspiring journeys!
+    </p>
+    
+    <div class="showcase__grid">
+        <!-- Large Customer Counter -->
+        <div class="showcase__counter">
+            <div class="counter__content">
+                <h2 class="counter__number">1000+</h2>
+                <p class="counter__label">Happy Customers</p>
+                <div class="counter__subtext">
+                    <p>Who achieved their fitness goals</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Photo/Video Collage Grid -->
+        <div class="showcase__media-grid">
+            <div class="media__item media__item--large">
+                <img src="customer1.jpg" alt="Customer transformation" />
+                <div class="media__overlay">
+                    <span class="play__button">▶</span>
+                </div>
+            </div>
+            
+            <div class="media__item">
+                <img src="customer2.jpg" alt="Customer workout" />
+            </div>
+            
+            <div class="media__item media__video">
+                <video loop muted autoplay>
+                    <source src="assets\cuatomer-transformation-logostick.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div class="media__item">
+                <img src="customer3.jpg" alt="Customer success" />
+            </div>
+            
+            <div class="media__item media__item--wide">
+                <img src="group-workout.jpg" alt="Group workout session" />
+            </div>
+            
+            <div class="media__item">
+                <img src="customer4.jpg" alt="Before after transformation" />
+            </div>
+            
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/fitness-intro-video.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            <div class="media__item">
+                <img src="customer5.jpg" alt="Customer testimonial" />
+            </div>
+        </div>
+    </div>
+    
+    <div class="showcase__cta">
+        <button class="btn showcase__btn">Join Our Success Stories</button>
+    </div>
+</section>
 
     <section class="section__container explore__container">
       <div class="explore__header">
@@ -215,6 +319,84 @@
         </div>
       </div>
     </section>
+    <!-- Gym Trainers Section -->
+<section class="section__container trainers__container">
+    <div class="section__header">Meet Our Expert Trainers</div>
+    <p class="section__subheader">
+        Our certified personal trainers are dedicated to helping you achieve your fitness goals with personalized guidance and expert knowledge.
+    </p>
+    
+    <div class="trainers__grid">
+        <div class="trainer__card">
+            <div class="trainer__image">
+                <img src="trainer1.jpg" alt="Sarah Johnson" />
+            </div>
+            <div class="trainer__content">
+                <h4>Sarah Johnson</h4>
+                <p class="trainer__specialty">Strength & Conditioning</p>
+                <p class="trainer__description">
+                    Certified strength coach with 8+ years of experience in functional training and body transformation.
+                </p>
+                <div class="trainer__credentials">
+                    <span>NASM-CPT</span>
+                    <span>CSCS</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trainer__card">
+            <div class="trainer__image">
+                <img src="trainer2.jpg" alt="Mike Rodriguez" />
+            </div>
+            <div class="trainer__content">
+                <h4>Mike Rodriguez</h4>
+                <p class="trainer__specialty">Weight Loss & Cardio</p>
+                <p class="trainer__description">
+                    Specializes in high-intensity interval training and sustainable weight management programs.
+                </p>
+                <div class="trainer__credentials">
+                    <span>ACE-CPT</span>
+                    <span>HIIT Specialist</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trainer__card">
+            <div class="trainer__image">
+                <img src="trainer3.jpg" alt="Emily Chen" />
+            </div>
+            <div class="trainer__content">
+                <h4>Emily Chen</h4>
+                <p class="trainer__specialty">Yoga & Flexibility</p>
+                <p class="trainer__description">
+                    Yoga instructor and flexibility specialist focused on mobility, balance, and mind-body wellness.
+                </p>
+                <div class="trainer__credentials">
+                    <span>RYT-500</span>
+                    <span>Pilates Certified</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="trainer__card">
+            <div class="trainer__image">
+                <img src="trainer4.jpg" alt="David Thompson" />
+            </div>
+            <div class="trainer__content">
+                <h4>David Thompson</h4>
+                <p class="trainer__specialty">Sports Performance</p>
+                <p class="trainer__description">
+                    Former athlete specializing in sports-specific training and injury prevention programs.
+                </p>
+                <div class="trainer__credentials">
+                    <span>CSCS</span>
+                    <span>FMS Certified</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <section class="review">
       <div class="section__container review__container">
@@ -256,7 +438,7 @@
       <span class="bg__blur"></span>
       <span class="bg__blur footer__blur"></span>
       <div class="footer__col">
-        <div class="footer__logo"><img src="assets/logo.png" alt="logo" /></div>
+        <div class="footer__logo"><img src="assets/logo.jpg" alt="logo" /></div>
         <p>
           Take the first step towards a healthier, stronger you with our
           unbeatable pricing plans. Let's sweat, achieve, and conquer together!
