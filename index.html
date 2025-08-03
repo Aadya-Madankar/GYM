@@ -17,14 +17,34 @@
       </div>
       <ul class="nav__links">
         <li class="link"><a href="#">Home</a></li>
-        <li class="link"><a href="#">Program</a></li>
-        <li class="link"><a href="#">Service</a></li>
-        <li class="link"><a href="#">About</a></li>
-        <li class="link"><a href="#">Community</a></li>
+        <li class="link"><a href="#explore-programs">Program</a></li>
+        <li class="link"><a href="#service">Service</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#community">Community</a></li>
       </ul>
       <button class="btn">Join Now</button>
     </nav>
-
+    <!-- Gym Branding Section -->
+<div class="section__container gym__branding__container">
+  <div class="gym__branding">
+    <div class="gym__branding__background"></div>
+    <div class="gym__branding__content">
+      <h2 class="gym__name__header">
+        <span class="letter-animate">F</span><span class="letter-animate">l</span><span class="letter-animate">e</span><span class="letter-animate">x</span><span class="letter-animate">o</span><span class="letter-animate">n</span>
+        <span class="space"></span>
+        <span class="letter-animate">F</span><span class="letter-animate">i</span><span class="letter-animate">t</span><span class="letter-animate">n</span><span class="letter-animate">e</span><span class="letter-animate">s</span><span class="letter-animate">s</span>
+        <span class="space"></span>
+        <span class="letter-animate">&</span>
+        <span class="space"></span>
+        <span class="letter-animate">G</span><span class="letter-animate">y</span><span class="letter-animate">m</span>
+        <span class="space"></span>
+        <span class="letter-animate highlight">2</span><span class="letter-animate highlight">.</span><span class="letter-animate highlight">0</span>
+      </h2>
+      <p class="gym__tagline__header">For Everyone, Every Goal</p>
+    </div>
+    <div class="gym__branding__glow"></div>
+  </div>
+</div>
     <header class="section__container header__container">
       <div class="header__content">
         <span class="bg__blur"></span>
@@ -36,13 +56,16 @@
           fitter, and more confident you. Sign up for 'Make Your Body Shape' now
           and witness the incredible transformation your body is capable of!
         </p>
-        <button class="btn">Get Started</button>
+        <a href="#explore-programs" class="btn">Get Started</a>
+
+  
       </div>
       <div class="header__image">
-        <img src="assets/header.png" alt="header" />
+        <img src="assets/header1.png" alt="header" />
       </div>
     </header>
     <!-- Video Section -->
+<section id="about" class="section__container video__container"></section>
 <section class="section__container video__container">
     <div class="section__header">Transform Your Fitness Journey</div>
     <p class="section__subheader">
@@ -52,9 +75,8 @@
     <div class="video__wrapper">
         <div class="video__card">
             <div class="video__player">
-                <video controls poster="assets\logo.png">
+                <video controls poster="assets\logo.jpg">
                     <source src="assets\fitness-intro-video.mp4" type="video/mp4">
-                    <source src="fitness-intro-video.webm" type="video/webm">
                     Your browser does not support the video tag.
                 </video>
             </div>
@@ -81,6 +103,7 @@
 </section>
 
 <!-- Customer Showcase Section -->
+<section id="community" class="section__container showcase__container"></section>
 <section class="section__container showcase__container">
     <div class="section__header">Join Our Growing Community</div>
     <p class="section__subheader">
@@ -102,51 +125,118 @@
         <!-- Photo/Video Collage Grid -->
         <div class="showcase__media-grid">
             <div class="media__item media__item--large">
-                <img src="customer1.jpg" alt="Customer transformation" />
-                <div class="media__overlay">
-                    <span class="play__button">▶</span>
-                </div>
+                <img src="assets/header.jpg" alt="Customer transformation" />
+
             </div>
-            
-            <div class="media__item">
-                <img src="customer2.jpg" alt="Customer workout" />
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/3.mp4" type="video/mp4">
+              </video>
             </div>
             
             <div class="media__item media__video">
                 <video loop muted autoplay>
-                    <source src="assets\cuatomer-transformation-logostick.mp4" type="video/mp4">
+                    <source src="assets\video1.mp4" type="video/mp4">
                 </video>
-            </div>
-            
-            <div class="media__item">
-                <img src="customer3.jpg" alt="Customer success" />
-            </div>
-            
-            <div class="media__item media__item--wide">
-                <img src="group-workout.jpg" alt="Group workout session" />
-            </div>
-            
-            <div class="media__item">
-                <img src="customer4.jpg" alt="Before after transformation" />
             </div>
             
             <div class="media__item media__video">
               <video loop muted autoplay>
-                <source src="assets/fitness-intro-video.mp4" type="video/mp4">
+                <source src="assets/4.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/16.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/6.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/12.mp4" type="video/mp4">
               </video>
             </div>
             
             <div class="media__item">
-                <img src="customer5.jpg" alt="Customer testimonial" />
+                <img src="assets/image1.jpg" alt="Celebration" />
+            </div>
+
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/1.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/7.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/15.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/8.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/9.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/10.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/11.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/5.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/13.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/14.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="media__item media__video">
+              <video loop muted autoplay>
+                <source src="assets/17.mp4" type="video/mp4">
+              </video>
             </div>
         </div>
     </div>
     
     <div class="showcase__cta">
-        <button class="btn showcase__btn">Join Our Success Stories</button>
+        <a href="https://www.instagram.com/flexonfitness_2.0?igsh=cHY4NXFsa3lpY2J3" target="_blank" class="btn">Join our success story</a>
+
     </div>
 </section>
-
+    <section id="explore-programs" class="section__container explore__container"></section>
     <section class="section__container explore__container">
       <div class="explore__header">
         <h2 class="section__header">EXPLORE OUR PROGRAM</h2>
@@ -248,77 +338,182 @@
         </div>
       </div>
     </section>
-
-    <section class="section__container price__container">
-      <h2 class="section__header">OUR PRICING PLAN</h2>
-      <p class="section__subheader">
-        Our pricing plan comes with various membership tiers, each tailored to
-        cater to different preferences and fitness aspirations.
-      </p>
-      <div class="price__grid">
-        <div class="price__card">
-          <div class="price__card__content">
-            <h4>Basic Plan</h4>
-            <h3>$16</h3>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              At home workouts
-            </p>
-          </div>
-          <button class="btn price__btn">Join Now</button>
-        </div>
-        <div class="price__card">
-          <div class="price__card__content">
-            <h4>Weekly Plan</h4>
-            <h3>$25</h3>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              PRO Gyms
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              At home workouts
-            </p>
-          </div>
-          <button class="btn price__btn">Join Now</button>
-        </div>
-        <div class="price__card">
-          <div class="price__card__content">
-            <h4>Monthly Plan</h4>
-            <h3>$45</h3>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              ELITE Gyms & Classes
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              PRO Gyms
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              Smart workout plan
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              At home workouts
-            </p>
-            <p>
-              <i class="ri-checkbox-circle-line"></i>
-              Personal Training
-            </p>
-          </div>
-          <button class="btn price__btn">Join Now</button>
-        </div>
+<section id="service" class="section__container price__container"></section>
+<section class="section__container price__container">
+  <h2 class="section__header">OUR PRICING PLAN</h2>
+  <p class="section__subheader">
+    Our pricing plan comes with various membership tiers, each tailored to
+    cater to different preferences and fitness aspirations.
+  </p>
+  <div class="price__grid">
+    <!-- Day Pass -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Day Pass</h4>
+        <h3>₹150</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Full gym access
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Cardio & strength equipment
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Basic workout guidance
+        </p>
       </div>
-    </section>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+
+    <!-- Monthly Plan -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Monthly Plan</h4>
+        <h3>₹1,400</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Strength training & aesthetics
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Cardio & weight management
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Group yoga classes
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          30 days validity
+        </p>
+      </div>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+
+    <!-- 3 Month Plan -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Quarterly Plan</h4>
+        <h3>₹3,500</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Bodybuilding programs
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          CrossFit training sessions
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Advanced yoga & flexibility
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          90 days validity
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Save ₹700
+        </p>
+      </div>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+  </div>
+
+  <!-- Second row for remaining plans -->
+  <div class="price__grid" style="margin-top: 2rem;">
+    <!-- 6 Month Plan -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Half Yearly Plan</h4>
+        <h3>₹5,000</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Complete bodybuilding suite
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Specialized CrossFit equipment
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Weight management coaching
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          180 days validity
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Save ₹3,400
+        </p>
+      </div>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+
+    <!-- Yearly Plan -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Annual Plan</h4>
+        <h3>₹8,500</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          All training programs access
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Priority equipment booking
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Nutrition consultation
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          365 days validity
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Save ₹8,300
+        </p>
+      </div>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+
+    <!-- Personal Training -->
+    <div class="price__card">
+      <div class="price__card__content">
+        <h4>Personal Training</h4>
+        <h3>₹4,000</h3>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          1-on-1 specialized coaching
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Customized workout plans
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Body transformation guidance
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Monthly package
+        </p>
+        <p>
+          <i class="ri-checkbox-circle-line"></i>
+          Diet & lifestyle coaching
+        </p>
+      </div>
+      <button class="btn price__btn">Join Now</button>
+    </div>
+  </div>
+</section>
+
+
     <!-- Gym Trainers Section -->
 <section class="section__container trainers__container">
     <div class="section__header">Meet Our Expert Trainers</div>
@@ -329,18 +524,14 @@
     <div class="trainers__grid">
         <div class="trainer__card">
             <div class="trainer__image">
-                <img src="trainer1.jpg" alt="Sarah Johnson" />
+                <img src="assets\trainer2.jpg" alt="Durgesh" />
             </div>
             <div class="trainer__content">
-                <h4>Sarah Johnson</h4>
+                <h4>Durgesh Khetade</h4>
                 <p class="trainer__specialty">Strength & Conditioning</p>
                 <p class="trainer__description">
-                    Certified strength coach with 8+ years of experience in functional training and body transformation.
+                    Certified strength coach with 4+ years of experience in functional training and body transformation.
                 </p>
-                <div class="trainer__credentials">
-                    <span>NASM-CPT</span>
-                    <span>CSCS</span>
-                </div>
             </div>
         </div>
         
@@ -349,66 +540,81 @@
                 <img src="trainer2.jpg" alt="Mike Rodriguez" />
             </div>
             <div class="trainer__content">
-                <h4>Mike Rodriguez</h4>
+                <h4>Priyanshu Rakhade</h4>
                 <p class="trainer__specialty">Weight Loss & Cardio</p>
                 <p class="trainer__description">
                     Specializes in high-intensity interval training and sustainable weight management programs.
                 </p>
-                <div class="trainer__credentials">
-                    <span>ACE-CPT</span>
-                    <span>HIIT Specialist</span>
-                </div>
             </div>
         </div>
         
-        <div class="trainer__card">
-            <div class="trainer__image">
-                <img src="trainer3.jpg" alt="Emily Chen" />
-            </div>
-            <div class="trainer__content">
-                <h4>Emily Chen</h4>
-                <p class="trainer__specialty">Yoga & Flexibility</p>
-                <p class="trainer__description">
-                    Yoga instructor and flexibility specialist focused on mobility, balance, and mind-body wellness.
-                </p>
-                <div class="trainer__credentials">
-                    <span>RYT-500</span>
-                    <span>Pilates Certified</span>
-                </div>
-            </div>
-        </div>
         
-        <div class="trainer__card">
-            <div class="trainer__image">
-                <img src="trainer4.jpg" alt="David Thompson" />
-            </div>
-            <div class="trainer__content">
-                <h4>David Thompson</h4>
-                <p class="trainer__specialty">Sports Performance</p>
-                <p class="trainer__description">
-                    Former athlete specializing in sports-specific training and injury prevention programs.
-                </p>
-                <div class="trainer__credentials">
-                    <span>CSCS</span>
-                    <span>FMS Certified</span>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
 
-    <section class="review">
-      <div class="section__container review__container">
-        <span><i class="ri-double-quotes-r"></i></span>
-        <div class="review__content">
-          <h4>MEMBER REVIEW</h4>
-          <p>
-            What truly sets this gym apart is their expert team of trainers. The
-            trainers are knowledgeable, approachable, and genuinely invested in
-            helping members achieve their fitness goals. They take the time to
-            understand individual needs and create personalized workout plans,
-            ensuring maximum results and safety.
+<section class="review">
+  <div class="section__container review__container">
+    <span><i class="ri-double-quotes-r"></i></span>
+    <div class="review__content">
+      <h4>MEMBER REVIEW</h4>
+      
+      <!-- Hidden radio buttons for navigation -->
+      <input type="radio" name="review-nav" id="review-1" checked>
+      <input type="radio" name="review-nav" id="review-2">
+      <input type="radio" name="review-nav" id="review-3">
+      <input type="radio" name="review-nav" id="review-4">
+      <input type="radio" name="review-nav" id="review-5">
+      <input type="radio" name="review-nav" id="review-6">
+      
+      <!-- Review Content Container -->
+      <div class="review__slider">
+        <!-- Review 1 -->
+        <div class="review__slide" data-review="1">
+          <p class="review__text">
+            Had an amazing experience at this gym! The crowd is minimal,
+            so you can work out comfortably without any distractions. 
+            All types of equipment are available, required for every fitness need. 
+            The trainers are highly experienced, and I highly recommend personal training for anyone new to fitness, they provide great guidance. 
+            Overall, a 10/10 experience!
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__member__details">
+            <h4>Ayush Whn</h4>
+
+          </div>
+        </div>
+        
+        <!-- Review 2 -->
+        <div class="review__slide" data-review="2">
+          <p class="review__text">
+           Its almost a year, I joined this place. Lacked the motivation to workout, had low body weight and what not. Eventually, after joining, the trainers will guide you for the taking the proper balanced diet, doing the right exercises and walkthrough of every muscle to work upon. Even if you feel low for a day, you don't feel to workout, they will keep you pushing for the goal you have set for yourself. Additionally, great people/partners to have a chat and workout with. Quality and maintainence of equipment are excellent.
+The best you can ask or hope from a gym or a fitness center. 😄
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__member__details">
+            <h4>Sanish Nirwan</h4>
+
+          </div>
+        </div>
+        
+        <!-- Review 3 -->
+        <div class="review__slide" data-review="3">
+          <p class="review__text">
+            One fo the best gym in Bhandara for fitness lovers well maintained equipment with reasonable rates.Trainers are good and cooperative...
           </p>
           <div class="review__rating">
             <span><i class="ri-star-fill"></i></span>
@@ -417,22 +623,129 @@
             <span><i class="ri-star-fill"></i></span>
             <span><i class="ri-star-half-fill"></i></span>
           </div>
-          <div class="review__footer">
-            <div class="review__member">
-              <img src="assets/member.jpg" alt="member" />
-              <div class="review__member__details">
-                <h4>Jane Cooper</h4>
-                <p>Software Developer</p>
-              </div>
-            </div>
-            <div class="review__nav">
-              <span><i class="ri-arrow-left-line"></i></span>
-              <span><i class="ri-arrow-right-line"></i></span>
-            </div>
+          <div class="review__member__details">
+            <h4>Chetan Akare</h4>
+
+          </div>
+        </div>
+        
+        <!-- Review 4 -->
+        <div class="review__slide" data-review="4">
+          <p class="review__text">
+            Good coaching, machines also useful Overall best gym
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__member__details">
+            <h4>Shivani Mankar</h4>
+          </div>
+        </div>
+        
+        <!-- Review 5 -->
+        <div class="review__slide" data-review="5">
+          <p class="review__text">
+            One of best in city. Gym equipped with new machineries of jaguar series. Which are best in class. Owner behaviour is good and he give personal attention to all. You should consider it.
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__member__details">
+            <h4>Jitendra Nandanwar</h4>
+
+          </div>
+        </div>
+        
+        <!-- Review 6 -->
+        <div class="review__slide" data-review="6">
+          <p class="review__text">
+            Very nice place I found. Good coaches, good attention, good & safe atmosphere for ladies as well.. Nothing awkward. The best place for you if you are looking for fitness.
+          </p>
+          <div class="review__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <div class="review__member__details">
+            <h4>Priti lillore</h4>
           </div>
         </div>
       </div>
-    </section>
+      
+      <!-- Navigation and Progress -->
+      <div class="review__footer">
+        <div class="review__member">
+          <div class="review__navigation">
+            <!-- Previous buttons -->
+            <label for="review-6" class="nav__btn prev__btn" data-target="1">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+            <label for="review-1" class="nav__btn prev__btn" data-target="2">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+            <label for="review-2" class="nav__btn prev__btn" data-target="3">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+            <label for="review-3" class="nav__btn prev__btn" data-target="4">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+            <label for="review-4" class="nav__btn prev__btn" data-target="5">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+            <label for="review-5" class="nav__btn prev__btn" data-target="6">
+              <i class="ri-arrow-left-line"></i>
+            </label>
+          </div>
+        </div>
+        
+        <div class="review__progress">
+          <label for="review-1" class="progress__dot"></label>
+          <label for="review-2" class="progress__dot"></label>
+          <label for="review-3" class="progress__dot"></label>
+          <label for="review-4" class="progress__dot"></label>
+          <label for="review-5" class="progress__dot"></label>
+          <label for="review-6" class="progress__dot"></label>
+        </div>
+        
+        <div class="review__nav">
+          <div class="review__navigation">
+            <!-- Next buttons -->
+            <label for="review-2" class="nav__btn next__btn" data-target="1">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+            <label for="review-3" class="nav__btn next__btn" data-target="2">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+            <label for="review-4" class="nav__btn next__btn" data-target="3">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+            <label for="review-5" class="nav__btn next__btn" data-target="4">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+            <label for="review-6" class="nav__btn next__btn" data-target="5">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+            <label for="review-1" class="nav__btn next__btn" data-target="6">
+              <i class="ri-arrow-right-line"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
     <footer class="section__container footer__container">
       <span class="bg__blur"></span>
@@ -445,17 +758,9 @@
         </p>
         <div class="footer__socials">
           <a href="#"><i class="ri-facebook-fill"></i></a>
-          <a href="#"><i class="ri-instagram-line"></i></a>
-          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="https://www.instagram.com/flexonfitness_2.0?igsh=cHY4NXFsa3lpY2J3" target="_blank"><i class="ri-instagram-line"></i></a>
         </div>
-      </div>
-      <div class="footer__col">
-        <h4>Company</h4>
-        <a href="#">Business</a>
-        <a href="#">Franchise</a>
-        <a href="#">Partnership</a>
-        <a href="#">Network</a>
-      </div>
+      </div>>
       <div class="footer__col">
         <h4>About Us</h4>
         <a href="#">Blogs</a>
@@ -467,7 +772,6 @@
         <a href="#">Contact Us</a>
         <a href="#">Privacy Policy</a>
         <a href="#">Terms & Conditions</a>
-        <a href="#">BMI Calculator</a>
       </div>
     </footer>
     <div class="footer__bar">

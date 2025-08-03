@@ -126,7 +126,7 @@ nav {
 }
 
 .header__container::before {
-  content: "FITNESS";
+  content: "FLEXON .";
   position: absolute;
   bottom: 5rem;
   right: 20rem;
@@ -1114,4 +1114,541 @@ nav {
 
 .close-modal:hover {
     background-color: var(--secondary-color-dark);
+}
+.price__grid + .price__grid {
+  margin-top: 2rem;
+}
+/* Option 1 CSS - Standalone Section */
+.gym__name__section {
+  background-color: var(--primary-color);
+  padding: 3rem 0 2rem 0;
+  text-align: center;
+}
+
+.gym__name__container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.gym__name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.gym__tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Option 2 CSS - Header Integration */
+.gym__branding {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.gym__name__header {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.gym__tagline__header {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Gym Branding Section */
+.gym__branding__container {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, var(--primary-color), var(--primary-color-light));
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.gym__branding {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gym__name__header {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.gym__tagline__header {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* Gym Branding Section */
+.gym__branding__container {
+  position: relative;
+  padding: 4rem 1rem;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-color-light) 50%,
+    var(--primary-color) 100%
+  );
+  border-radius: 0 0 30px 30px;
+  margin-bottom: 2rem;
+}
+
+.gym__branding {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+
+
+/* Glowing Effect */
+.gym__branding__glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 100px;
+ 
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: pulse 3s ease-in-out infinite;
+  z-index: -1;
+}
+
+.gym__branding__content {
+  position: relative;
+  z-index: 3;
+}
+
+.gym__name__header {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(249, 172, 84, 0.3);
+  line-height: 1.2;
+}
+
+/* Letter Animation */
+.letter-animate {
+  display: inline-block;
+  animation: letterFadeIn 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.letter-animate.highlight {
+  color: var(--secondary-color);
+  text-shadow: 
+    2px 2px 4px rgba(0, 0, 0, 0.5),
+    0 0 20px var(--secondary-color);
+}
+
+.space {
+  display: inline-block;
+  width: 0.5em;
+}
+
+/* Staggered Animation Delay */
+.letter-animate:nth-child(1) { animation-delay: 0.1s; }
+.letter-animate:nth-child(2) { animation-delay: 0.2s; }
+.letter-animate:nth-child(3) { animation-delay: 0.3s; }
+.letter-animate:nth-child(4) { animation-delay: 0.4s; }
+.letter-animate:nth-child(5) { animation-delay: 0.5s; }
+.letter-animate:nth-child(6) { animation-delay: 0.6s; }
+.letter-animate:nth-child(7) { animation-delay: 0.7s; }
+.letter-animate:nth-child(8) { animation-delay: 0.8s; }
+.letter-animate:nth-child(9) { animation-delay: 0.9s; }
+.letter-animate:nth-child(10) { animation-delay: 1.0s; }
+.letter-animate:nth-child(11) { animation-delay: 1.1s; }
+.letter-animate:nth-child(12) { animation-delay: 1.2s; }
+.letter-animate:nth-child(13) { animation-delay: 1.3s; }
+.letter-animate:nth-child(14) { animation-delay: 1.4s; }
+.letter-animate:nth-child(15) { animation-delay: 1.5s; }
+.letter-animate:nth-child(16) { animation-delay: 1.6s; }
+.letter-animate:nth-child(17) { animation-delay: 1.7s; }
+.letter-animate:nth-child(18) { animation-delay: 1.8s; }
+.letter-animate:nth-child(19) { animation-delay: 1.9s; }
+.letter-animate:nth-child(20) { animation-delay: 2.0s; }
+
+.gym__tagline__header {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out 2.2s forwards;
+  position: relative;
+}
+
+.gym__tagline__header::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--secondary-color), transparent);
+  transform: translateX(-50%);
+  animation: expandLine 1s ease-out 2.5s forwards;
+}
+
+/* Keyframe Animations */
+@keyframes letterFadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes expandLine {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.2;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+/* Hover Effects */
+.gym__branding__content:hover .gym__name__header {
+  animation: titleGlow 2s ease-in-out;
+}
+
+.gym__branding__content:hover .gym__tagline__header {
+  color: var(--white);
+  text-shadow: 0 0 10px var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+@keyframes titleGlow {
+  0%, 100% {
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.5),
+      0 0 20px rgba(249, 172, 84, 0.3);
+  }
+  50% {
+    text-shadow: 
+      2px 2px 4px rgba(0, 0, 0, 0.5),
+      0 0 30px rgba(249, 172, 84, 0.8),
+      0 0 40px rgba(249, 172, 84, 0.4);
+  }
+}
+
+
+
+.gym__branding__container::before {
+  top: -20px;
+  left: -20px;
+  animation-delay: 0s;
+}
+
+.gym__branding__container::after {
+  bottom: -20px;
+  right: -20px;
+  animation-delay: 2s;
+}
+
+@keyframes cornerFloat {
+  0%, 100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.2) rotate(180deg);
+    opacity: 0.6;
+  }
+}
+
+/* Responsive Design */
+@media (width < 900px) {
+  .gym__branding__container {
+    padding: 3rem 1rem;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .gym__name__header {
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+  }
+  
+  .gym__tagline__header {
+    font-size: 1rem;
+  }
+  
+  .gym__branding__glow {
+    width: 200px;
+    height: 80px;
+  }
+}
+
+@media (width < 600px) {
+  .gym__branding__container {
+    padding: 2.5rem 1rem;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .gym__name__header {
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+  
+  .gym__tagline__header {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .gym__branding__glow {
+    width: 150px;
+    height: 60px;
+  }
+  
+  .gym__branding__container::before,
+  .gym__branding__container::after {
+    width: 60px;
+    height: 60px;
+  }
+}
+/* Hide radio buttons */
+input[name="review-nav"] {
+  display: none;
+}
+
+/* Review Slider Container */
+.review__slider {
+  position: relative;
+  min-height: 250px;
+  margin-bottom: 2rem;
+}
+
+/* Review Slides */
+.review__slide {
+  display: none;
+  width: 100%;
+}
+
+/* Show active slides based on radio button state */
+#review-1:checked ~ .review__slider .review__slide[data-review="1"],
+#review-2:checked ~ .review__slider .review__slide[data-review="2"],
+#review-3:checked ~ .review__slider .review__slide[data-review="3"],
+#review-4:checked ~ .review__slider .review__slide[data-review="4"],
+#review-5:checked ~ .review__slider .review__slide[data-review="5"],
+#review-6:checked ~ .review__slider .review__slide[data-review="6"] {
+  display: block;
+}
+
+/* Review Text Styling */
+.review__text {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Rating Styling */
+.review__rating {
+  margin-bottom: 2rem;
+}
+
+.review__rating span {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  margin-right: 0.2rem;
+}
+
+/* Member Details */
+.review__member__details h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+
+.reviewer__membership {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Navigation Buttons */
+.nav__btn {
+  display: none;
+  font-size: 2rem;
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+.nav__btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+
+/* Show appropriate navigation buttons */
+#review-1:checked ~ .review__footer .prev__btn[data-target="1"],
+#review-2:checked ~ .review__footer .prev__btn[data-target="2"],
+#review-3:checked ~ .review__footer .prev__btn[data-target="3"],
+#review-4:checked ~ .review__footer .prev__btn[data-target="4"],
+#review-5:checked ~ .review__footer .prev__btn[data-target="5"],
+#review-6:checked ~ .review__footer .prev__btn[data-target="6"] {
+  display: flex;
+}
+
+#review-1:checked ~ .review__footer .next__btn[data-target="1"],
+#review-2:checked ~ .review__footer .next__btn[data-target="2"],
+#review-3:checked ~ .review__footer .next__btn[data-target="3"],
+#review-4:checked ~ .review__footer .next__btn[data-target="4"],
+#review-5:checked ~ .review__footer .next__btn[data-target="5"],
+#review-6:checked ~ .review__footer .next__btn[data-target="6"] {
+  display: flex;
+}
+
+/* Progress Indicator */
+.review__progress {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.progress__dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--text-light);
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.progress__dot:hover {
+  opacity: 0.7;
+}
+
+/* Active progress dots */
+#review-1:checked ~ .review__footer .progress__dot:nth-child(1),
+#review-2:checked ~ .review__footer .progress__dot:nth-child(2),
+#review-3:checked ~ .review__footer .progress__dot:nth-child(3),
+#review-4:checked ~ .review__footer .progress__dot:nth-child(4),
+#review-5:checked ~ .review__footer .progress__dot:nth-child(5),
+#review-6:checked ~ .review__footer .progress__dot:nth-child(6) {
+  background-color: var(--secondary-color);
+  opacity: 1;
+}
+
+/* Footer Layout */
+.review__footer {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.review__member {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.review__nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review__navigation {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+/* Responsive Design */
+@media (width < 600px) {
+  .review__slider {
+    min-height: 300px;
+  }
+  
+  .nav__btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
+  }
+  
+  .review__footer {
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  
+  .review__progress {
+    order: -1;
+  }
 }
