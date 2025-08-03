@@ -869,28 +869,57 @@ nav {
     opacity: 0.9;
 }
 
-/* --- VIDEO SHOWCASE FIX FOR MOBILE DEVICES --- */
-@media (max-width: 600px) {
-  .showcase__media-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 180px; /* Larger rows prevent video bugs */
-    gap: 0.7rem;
-  }
-  .media__item,
-  .media__item img,
-  .media__item video {
-    width: 100%;
-    height: 100%;
-    min-height: 120px;      /* Ensures no tiny video boxes */
-    max-height: 240px;      /* Prevents excessive stretch */
-    object-fit: contain;    /* More reliable for video on mobile in grid */
-    background: #222;
-    border-radius: 8px;
-  }
+.showcase__media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    grid-auto-rows: 200px;
 }
 
+.media__item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.media__item:hover {
+    transform: scale(1.05);
+}
 
+.media__item--large {
+    grid-row: span 2;
+}
+
+.media__item--wide {
+    grid-column: span 2;
+}
+
+.media__item img,
+.media__item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.media__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(249, 172, 84, 0.1), rgba(215, 148, 71, 0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.media__item:hover .media__overlay {
+    opacity: 1;
+}
 
 .play__button {
     width: 50px;
@@ -1623,4 +1652,3 @@ input[name="review-nav"] {
     order: -1;
   }
 }
-
